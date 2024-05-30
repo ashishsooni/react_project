@@ -1,0 +1,111 @@
+body {
+  /* background-color: rgb(94, 123, 211); */
+  background-color: #303030;
+  color: rgb(56, 27, 119);
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(198, 212, 230); */
+  background-color: #f29147;
+  width: 300px;
+  align-items: center;
+  border-bottom: 3px dotted;
+  border-radius: 200px;
+  box-shadow: 7px 6px 19px 1px rgb(15, 15, 15);
+}
+
+.Input_container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Input_container > button {
+  /* background-color: rgb(106, 94, 187); */
+  background-color: #878380;
+  margin-top: 7px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  margin-left: 3px;
+  box-shadow: 4px 4px 9px 1.2px rgb(8, 8, 8);
+}
+
+.Input_container > input {
+  /* background-color: white; */
+  /* background-color: rgba(244, 177, 127,); */
+  color: black;
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  height: 30px;
+  width: 200px;
+  font-size: 1.2rem;
+}
+
+.Input_container > button:hover {
+  /* background-color: rgba(122, 144, 204, 0.985); */
+  background-color: #9c9696;
+}
+
+/* .container {
+   margin-top: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+       
+  } */
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo {
+  margin-top: 20px;
+  /* background-color: rgb(198, 212, 230); */
+  background-color: rgba(230, 156, 99, 0.86);
+  width: 400px;
+  /* height:50px;    ----> no need*/
+  display: flex;
+  /* flex-direction: column;  ----> row me chahiye*/
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 0px 5px;
+  box-shadow: 4px 4px 10px 1.2px rgb(13, 13, 14);
+  font-weight: 500;
+}
+.actions {
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: center; -----> no need*/
+}
+.actions > button {
+  background-color: red;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  /* border: 1px solid black; */
+  color: white;
+  box-shadow: 3px 5px 10px 0.1px rgb(11, 11, 11);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
